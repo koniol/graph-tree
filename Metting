@@ -1,0 +1,42 @@
+
+
+1 Which Technologies would you like to see in the Locator KD?
+ Angular 7 ?
+2. What is your preferred Development Workflow?
+    ?
+Learnings from the last project
+3. What was good, and why?
+    - use material design (this library allow to build components faster)
+4. What went not so good and what of these things would you improve?
+
+Naming Conventions
+const in class should be in CAPITAL WORDS
+private property should start with underscore
+it will be good approach to have one level max of component input.
+
+
+FOR REDUX bellow
+
+
+module_name
+    components
+        first.component.ts
+    service
+        first.service.ts
+    models
+        first.model.ts
+    store
+        actions
+            first.action.ts
+            index.ts
+        reducers
+            first.reducer.ts
+            index.ts // featureSelector and selector
+        effects
+            index.ts
+            first.effect.ts
+        index.tx // exports all action, reducers, effects as store
+    module_name.module.ts
+
+
+
